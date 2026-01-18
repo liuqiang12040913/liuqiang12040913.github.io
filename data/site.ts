@@ -39,6 +39,11 @@ export const site = {
   news: [
     {
       date: "[2026/01]",
+      text: "Our paper (AutoPlan) on digital twin assisted cellular network planning has been accepted by IEEE ICC 2026! Congratulations to Xiaomeng Li!",
+      tag: "Student",
+    },
+    {
+      date: "[2026/01]",
       text: "Yuru will join Nokia Bell Labs as a Research Intern this Summer at Murray Hill, NJ. Congratulations to Yuru Zhang!",
       tag: "Student",
     },
