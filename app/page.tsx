@@ -138,7 +138,7 @@ export default function HomePage() {
           {/* List: no indent */}
           <div className="mt-5 space-y-2">
             {site.news.map((n) => (
-              <div key={`${n.date}-${n.text}`} className="flex items-start gap-3">
+              <div key={`${n.date}-${n.html}`} className="flex items-start gap-3">
                 {/* Tag (desktop only) */}
                 <div className="hidden md:flex w-20 shrink-0 pt-0.5 justify-end">
                   <NewsTag tag={n.tag} />
@@ -147,7 +147,10 @@ export default function HomePage() {
                 {/* Date + text */}
                 <div className="text-slate-900 leading-relaxed">
                   <span className="font-semibold">{n.date}</span>{" "}
-                  <span className="text-slate-700">{n.text}</span>
+                  <span
+                  className="text-slate-700"
+                  dangerouslySetInnerHTML={{ __html: n.html }}
+                />
                 </div>
               </div>
             ))}

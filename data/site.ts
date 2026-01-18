@@ -39,130 +39,142 @@ export const site = {
   news: [
     {
       date: "[2026/01]",
-      text: "Our paper (AutoPlan) on digital twin assisted cellular network planning has been accepted by IEEE ICC 2026! Congratulations to Xiaomeng and Yuru!",
       tag: "Student",
+      html: `Our paper (<strong>AutoPlan</strong>) on digital twin assisted cellular network planning has been accepted by <strong>IEEE ICC 2026</strong>! Congratulations to Xiaomeng and Yuru!`,
     },
     {
       date: "[2026/01]",
-      text: "Yuru will join Nokia Bell Labs as a Research Intern this Summer at Murray Hill, NJ. Congratulations to Yuru Zhang!",
       tag: "Student",
+      html: `Yuru will join <strong>Nokia Bell Labs</strong> as a Research Intern this Summer at Murray Hill, NJ. Congratulations to Yuru Zhang!`,
     },
     {
       date: "[2025/12]",
-      text: "Received two-year $100K UNL Fred J. Kelly Fund (PI) for research on integrating AI in computer science education with Co-PI Lisong Xu!",
       tag: "Grant",
+      html: `Received two-year <strong>$100K</strong> UNL Fred J. Kelly Fund (PI) for research on integrating <em>AI in computer science education</em> with Co-PI Lisong Xu!`,
     },
     {
       date: "[2025/12]",
-      text: "Our paper (inRAN) on Interpretable Radio Access Networks has been accepted by IEEE INFOCOM 2026! Congratulations to Ming and Yuru!",
       tag: "Paper",
+      html: `Our paper (<strong>inRAN</strong>) on Interpretable Radio Access Networks has been accepted by <strong>IEEE INFOCOM 2026</strong>! Congratulations to Ming and Yuru!`,
     },
     {
       date: "[2025/12]",
-      text: "Our paper (oneTwin) on Online Digital Network Twins has been accepted by IEEE INFOCOM 2026! Congratulations to Yuru and Ming!",
       tag: "Paper",
+      html: `Our paper (<strong>oneTwin</strong>) on Online Digital Network Twins has been accepted by <strong>IEEE INFOCOM 2026</strong>! Congratulations to Yuru and Ming!`,
     },
     {
       date: "[2025/11]",
-      text: "Served as Associate Editor in IEEE Wireless Communication Magazine!",
       tag: "Service",
+      html: `Served as <strong>Associate Editor</strong> in <em>IEEE Wireless Communication Magazine</em>!`,
     },
     {
       date: "[2025/07]",
-      text: "Our CADaaS project has been highlighted by the NSF CISE Newsletter, July 2025!",
       tag: "Media",
+      html: `Our <strong>CADaaS</strong> project has been highlighted by the <strong>NSF CISE Newsletter</strong>, July 2025!`,
     },
     {
       date: "[2025/07]",
-      text: "Received a $59K PAWR Supplement Fund under our AutoSlicing project! This will support us to work with the ARA platform for network slicing in the field.",
       tag: "Grant",
+      html: `Received a <strong>$59K</strong> PAWR Supplement Fund under our <strong>AutoSlicing</strong> project! This will support us to work with the ARA platform for network slicing in the field.`,
     },
     {
       date: "[2025/07]",
-      text: "Our CADaaS project has been highlighted in Nebraska Today and Channel 8.",
       tag: "Media",
+      html: `Our <strong>CADaaS</strong> project has been highlighted in
+        <a href="https://news.unl.edu/article/lius-research-expands-connects-autonomous-vehicle-capabilities"
+          target="_blank" rel="noopener noreferrer"
+          class="text-blue-700 hover:text-blue-800">
+          Nebraska Today
+        </a>
+        and
+        <a href="https://www.klkntv.com/unl-professor-working-on-software-to-make-all-new-cars-self-driving/"
+          target="_blank" rel="noopener noreferrer"
+          class="text-blue-700 hover:text-blue-800">
+          Channel 8
+        </a>.`,
     },
     {
       date: "[2025/XX]",
-      text: "Happy to join an NSF panel and complete the two-day panel discussion.",
       tag: "Other",
+      html: `Happy to join an <strong>NSF panel</strong> and complete the two-day panel discussion.`,
     },
     {
       date: "[2025/XX]",
-      text: "Happy to join an NSF panel and complete the two-day panel discussion.",
       tag: "Other",
+      html: `Happy to join an <strong>NSF panel</strong> and complete the two-day panel discussion.`,
     },
     {
       date: "[2025/05]",
-      text: "Welcome Xiaomeng Li to the INT Lab as a PhD student!",
       tag: "Student",
+      html: `Welcome <strong>Xiaomeng Li</strong> to the INT Lab as a PhD student!`,
     },
     {
       date: "[2025/05]",
-      text: "Happy to join the Open AI Impact Program at UNL, to explore AI techniques for future engineering teaching.",
       tag: "Other",
+      html: `Happy to join the <strong>Open AI Impact Program</strong> at UNL, to explore AI techniques for future engineering teaching.`,
     },
     {
       date: "[2025/XX]",
-      text: "Happy to join an NSF panel and complete the two-day panel discussion.",
       tag: "Other",
+      html: `Happy to join an <strong>NSF panel</strong> and complete the two-day panel discussion.`,
     },
     {
       date: "[2025/04]",
-      text: "Yuru is awarded the Milton E. Mohr Fellowship (Year 2025-2026) by the College of Engineering, UNL. Congratulations to Yuru Zhang!",
       tag: "Award",
+      html: `Yuru is awarded the <strong>Milton E. Mohr Fellowship</strong> (Year 2025-2026) by the College of Engineering, UNL. Congratulations to Yuru Zhang!`,
     },
     {
       date: "[2025/03]",
-      text: "Received 2025 Edgerton Innovation Award, College of Engineering!",
       tag: "Award",
+      html: `Received <strong>2025 Edgerton Innovation Award</strong>, College of Engineering!`,
     },
     {
       date: "[2025/03]",
-      text: "Received an NVIDIA Academic Grant (2x RTX PRO 6000 GPUs) to support our Digital Network Twin research. Thanks, NVIDIA!",
       tag: "Grant",
+      html: `Received an <strong>NVIDIA Academic Grant</strong> (2x RTX PRO 6000 GPUs) to support our Digital Network Twin research. Thanks, NVIDIA!`,
     },
     {
       date: "[2025/03]",
-      text: "Our poster on Multi-Layer Digital Transportation Twin is accepted by IEEE MOST 2025. Congratulations to Jiahe Cao! See you in Delaware this May.",
       tag: "Paper",
+      html: `Our poster on Multi-Layer Digital Transportation Twin is accepted by <strong>IEEE MOST 2025</strong>. Congratulations to Jiahe Cao! See you in Delaware this May.`,
     },
     {
       date: "[2025/03]",
-      text: "Xiaomeng is awarded the prestigious Othmer Fellowship ($4000 per year, and up to three years) by the College of Engineering, UNL. Congratulations to Xiaomeng Li!",
       tag: "Award",
+      html: `Xiaomeng is awarded the prestigious <strong>Othmer Fellowship</strong> ($4000 per year, and up to three years) by the College of Engineering, UNL. Congratulations to Xiaomeng Li!`,
     },
     {
       date: "[2025/02]",
-      text: "Ming Zhao will join Nokia Bell Labs as a Research Intern this Summer (again) at Murray Hill, NJ. Congratulations to Ming Zhao!",
       tag: "Student",
+      html: `Ming Zhao will join <strong>Nokia Bell Labs</strong> as a Research Intern this Summer (again) at Murray Hill, NJ. Congratulations to Ming Zhao!`,
     },
     {
       date: "[2025/02]",
-      text: "Call for Posters and Demos, IEEE MOST 2025, will be held in Newark, DE, this May!",
       tag: "Other",
+      html: `Call for Posters and Demos, <strong>IEEE MOST 2025</strong>, will be held in Newark, DE, this May!`,
     },
     {
       date: "[2025/02]",
-      text: "Received three-year $289K NSF CSR project on Connected Autonomous Driving (Lead-PI), (NSF 2426481)!",
       tag: "Grant",
+      html: `Received three-year <strong>$289K</strong> NSF CSR project on Connected Autonomous Driving (Lead-PI), (NSF 2426481)!`,
     },
     {
       date: "[2025/02]",
-      text: "Our paper on Interpretable Learning-Assisted Network Slicing has been accepted by IEEE INFOCOM NG-OPERA 2025! Congratulations to Ming and Yuru!",
       tag: "Paper",
+      html: `Our paper on (<strong>inSlicing</strong>) Interpretable Learning-Assisted Network Slicing has been accepted by <strong>IEEE INFOCOM NG-OPERA 2025</strong>! Congratulations to Ming and Yuru!`,
     },
     {
       date: "[2025/02]",
-      text: "Received two-year $173K Nebraska DoT project about cost-efficient rural wireless connectivity (Co-PI), with PI Chun-Hsing Ho, and the other Co-PI Kyungki Kim!",
       tag: "Grant",
+      html: `Received two-year <strong>$173K</strong> Nebraska DoT project about cost-efficient rural wireless connectivity (Co-PI), with PI Chun-Hsing Ho, and the other Co-PI Kyungki Kim!`,
     },
     {
       date: "[2025/02]",
-      text: "Received two-year $186K Nebraska DoT project about field C-V2X interoperability in NE highway (Co-PI), with PI Chun-Hsing Ho, and the other Co-PI Li Zhao!",
       tag: "Grant",
+      html: `Received two-year <strong>$186K</strong> Nebraska DoT project about field C-V2X interoperability in NE highway (Co-PI), with PI Chun-Hsing Ho, and the other Co-PI Li Zhao!`,
     },
   ],
+
 
 
 
