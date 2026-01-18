@@ -39,7 +39,7 @@ export const site = {
   news: [
     {
       date: "[2026/01]",
-      text: "Our paper (AutoPlan) on digital twin assisted cellular network planning has been accepted by IEEE ICC 2026! Congratulations to Xiaomeng Li!",
+      text: "Our paper (AutoPlan) on digital twin assisted cellular network planning has been accepted by IEEE ICC 2026! Congratulations to Xiaomeng and Yuru!",
       tag: "Student",
     },
     {
@@ -175,12 +175,12 @@ export const site = {
     {
       title: 'Embodied Intelligence',
       description:
-        'Autonomous Systems, Edge AI, Networked Robotics, Autonomous Driving.',
+        'Autonomous Systems, Edge AI, Digital Twin, Networked Robotics, Autonomous Driving.',
     },
     {
       title: 'Cyber-Physical Systems',
       description:
-        'Digital Twin, Smart Agriculture, Industrial IoT, V2X.',
+        'Smart Agriculture, Industrial IoT, Vehicle-to-Everything, Advanced Manufacturing.',
     },
   ],
 
