@@ -29,11 +29,11 @@ export const site = {
 
   nav: [
     { label: 'Home', href: '/' },
-    { label: 'Project', href: '/projects' },
-    { label: 'Publication', href: '/publications' },
-    { label: 'Teaching', href: '/teaching' },
-    { label: 'People', href: '/people' },
-    { label: 'Service', href: '/service' },
+    { label: 'Projects', href: '/projects' },
+    { label: 'Publications', href: '/publications' },
+    { label: 'Courses', href: '/teaching' },
+    { label: 'Services', href: '/service' },
+    { label: 'Students', href: '/people' },
   ] satisfies NavItem[],
 
   news: [

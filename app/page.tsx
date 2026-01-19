@@ -106,8 +106,10 @@ export default function HomePage() {
             <p>
               My research goal is to design, develop, and deploy converged networking and computing systems that efficiently support a broad range of emerging applications, including extended reality, autonomous driving, industrial automation, and precision agriculture.
               My research philosophy emphasizes the integration of theoretical optimization with system experimentation in real-world large-scale networking and computing environments.
+              I have received multiple awards, including the Best Paper Award at IEEE ICC (2019 and 2022), Best Paper Award at IEEE TAOS (2019), NVIDIA Academic Grant Award(2025), Edgerton Innovation Award (2025), Research Excellence Award (2024).
               I am the principal investigator of Husker-Net, the first multi-campus private 5G network at the University of Nebraska-Lincoln, supported by NSF Campus Cyberinfrastructure (CC*) program.
             </p>
+
             <p className="font-medium text-blue-800">
               I am actively looking for self-motivated Ph.D. students to join my research group. If you are interested in working with me, please send me an email with your CV and research interests.
             </p>
