@@ -65,7 +65,7 @@ export const site = {
     {
       date: "[2025/11]",
       tag: "Service",
-      html: `Dr. Liu serves as <strong>Associate Editor</strong> in <em>IEEE Wireless Communication Magazine</em>!`,
+      html: `Dr. Liu serves as <strong>Editor</strong> in <em>IEEE Wireless Communication Magazine</em>!`,
     },
     {
       date: "[2025/07]",
