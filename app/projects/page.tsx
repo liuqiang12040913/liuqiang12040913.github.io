@@ -6,12 +6,6 @@ import { projects } from '@/data/projects';
 export default function ProjectsPage() {
   return (
     <main className="pt-8 pb-10">
-      <Section className="py-6">
-        <div className="flex items-center gap-8 mb-8">
-          <h1 className="text-5xl font-bold text-slate-900">PROJECT</h1>
-        </div>
-        <hr className="border-t-4 border-blue-700" />
-      </Section>
 
       <Section className="py-10">
         <div className="space-y-8">

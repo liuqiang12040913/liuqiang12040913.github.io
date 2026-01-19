@@ -82,10 +82,6 @@ export default function ServicePage() {
 
   return (
     <main className="pt-8 pb-10">
-      <Section className="py-6">
-        <h1 className="text-5xl font-bold text-slate-900">SERVICE</h1>
-        <hr className="mt-6 border-t-4 border-blue-700" />
-      </Section>
 
       {/* slightly smaller vertical gaps between sections */}
       <Section className="py-8">

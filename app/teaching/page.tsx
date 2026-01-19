@@ -32,10 +32,6 @@ function TermTag({ term }: { term: string }) {
 export default function TeachingPage() {
   return (
     <main className="pt-8 pb-10">
-      <Section className="py-6">
-        <h1 className="text-5xl font-bold text-slate-900">TEACHING</h1>
-        <hr className="mt-6 border-t-4 border-blue-700" />
-      </Section>
 
       <Section className="py-8">
         <Card className="p-8">

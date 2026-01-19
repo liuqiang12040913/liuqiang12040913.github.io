@@ -27,7 +27,7 @@ export const projects: Project[] = [
     duration: 'Mar. 2025 – Feb. 2028',
     abstract:
       'This project aims to democratize autonomous driving technologies to every connected vehicle via designing a new connected autonomous driving as a service (CADaaS). The fundamental idea is to enable adaptive vehicle-edge collaboration for collaboratively performing any latest autonomous driving stacks, including perception, prediction, and planning.',
-    tags: ['Autonomy', 'Edge Computing', 'Deterministic Networking'],
+    tags: ['Autonomous Systems', 'Edge Computing', 'Deterministic Networking'],
   },
   {
     id: 'epscor',
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     fundingUrl: 'https://www.nsf.gov/awardsearch/show-award?AWD_ID=2333164&HistoricalAwards=false',
     // ctaLabel: 'Webpage →',
     // ctaUrl: 'https://your-lab-site/auto-slicing',
-    tags: ['Network Slicing', 'Network Orchestration', 'Online Learning', 'Safety'],
+    tags: ['Network Slicing', 'Network Orchestration', 'Online Learning'],
   },
 
   {
@@ -72,7 +72,7 @@ export const projects: Project[] = [
     duration: 'Sept. 2024 – Sept. 2026',
     abstract:
       'The goal of this project is to advance the safety protocols for commercial motor vehicles (CMVs) by integrating cutting-edge road hazard condition detection technologies in real-time. By using this new approach, we aim to minimize the likelihood of crashes in strategic locations on rural roadways.',
-    tags: ['ITS', 'Safety', 'Roadside Sensing'],
+    tags: ['ITS', 'Driving Safety', 'Roadside Sensing'],
   },
   {
     id: 'croptwin',
@@ -100,7 +100,7 @@ export const projects: Project[] = [
       'This project outlines a novel open end-to-end cellular edge network (Husker-Net) by designing, deploying, and operating private 5G network over a light-licensed CBRS spectrum in multiple UNL campuses. Husker-Net is featured with ultra-low operating cost with open-source modules, flexible deployment with both wired and wireless backhaul (e.g., LEO in mid of Nebraska), and zero-touch management with automatic model-free algorithms.',
     ctaLabel: 'Visit Husker-Net Website →',
     ctaUrl: 'https://husker-net.unl.edu/',
-    tags: ['Private 5G', 'Edge Networking', 'Automation'],
+    tags: ['Private 5G', 'Edge Networking', 'Network Automation'],
   },
   {
     id: 'field-nets',

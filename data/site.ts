@@ -65,7 +65,7 @@ export const site = {
     {
       date: "[2025/11]",
       tag: "Service",
-      html: `Served as <strong>Associate Editor</strong> in <em>IEEE Wireless Communication Magazine</em>!`,
+      html: `Dr. Liu serves as <strong>Associate Editor</strong> in <em>IEEE Wireless Communication Magazine</em>!`,
     },
     {
       date: "[2025/07]",
@@ -126,7 +126,7 @@ export const site = {
     {
       date: "[2025/03]",
       tag: "Award",
-      html: `Received <strong>2025 Edgerton Innovation Award</strong>, College of Engineering!`,
+      html: `Dr. Liu received <strong>2025 Edgerton Innovation Award</strong>, College of Engineering!`,
     },
     {
       date: "[2025/03]",
@@ -136,7 +136,7 @@ export const site = {
     {
       date: "[2025/03]",
       tag: "Paper",
-      html: `Our poster on Multi-Layer Digital Transportation Twin is accepted by <strong>IEEE MOST 2025</strong>. Congratulations to Jiahe Cao! See you in Delaware this May.`,
+      html: `Our poster on Multi-Layer Digital Transportation Twin is accepted by <strong>IEEE MOST 2025</strong>. Congratulations to Jiahe Cao!`,
     },
     {
       date: "[2025/03]",

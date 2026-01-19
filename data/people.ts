@@ -19,7 +19,7 @@ export const peopleSections: PeopleSection[] = [
         roleLine: "Ph.D. Student, Summer 2025, M.S., Jilin University",
         researchFocus:
           "Research Focus: Deterministic Wireless Communication, Time-Sensitive Networks",
-        highlights: "Highlights: Othmer Fellowship",
+        highlights: "Highlights: Othmer Fellowship, ICC 2026",
       },
       {
         name: "Jiahe Cao",
@@ -41,7 +41,7 @@ export const peopleSections: PeopleSection[] = [
         roleLine: "Ph.D. Student, Fall 2022, M.S., Xidian University",
         researchFocus:
           "Research Focus: Wireless Network, Digital Network Twin",
-        highlights: "Highlights: INFOCOM 2026; Milton E. Mohr Fellowship",
+        highlights: "Highlights: INFOCOM 2026; Milton E. Mohr Fellowship, Nokia Bell Labs Internships 2026",
       },
     ],
   },

@@ -35,16 +35,16 @@ function NewsTag({ tag }: { tag?: string }) {
 export default function HomePage() {
   return (
     <main className="pt-8 pb-10">
-      <Section className="py-10">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+      <Section className="py-8">
+        <div className="mx-auto max-w-6xl grid md:grid-cols-2 gap-8 items-start">
           <div>
             <h1 className="text-5xl font-bold text-slate-900 mb-4">{site.name}</h1>
-            <p className="text-xl text-blue-700 mb-6">{site.title}</p>
+            <p className="text-xl text-blue-700 mb-4">{site.title}</p>
 
-            <p className="text-lg text-slate-700 leading-relaxed mb-2">
+            <p className="text-lg text-slate-700 leading-relaxed mb-1">
               {site.department}
             </p>
-            <p className="text-lg text-slate-700 leading-relaxed mb-8">
+            <p className="text-lg text-slate-700 leading-relaxed mb-6">
               {site.university}
             </p>
 
@@ -61,7 +61,7 @@ export default function HomePage() {
               <div className="flex items-center gap-3 text-slate-700">
                 <Phone className="h-6 w-6 text-blue-600" />
                 <a
-                  href={`tel:${site.phone.replace(/[^0-9+]/g, '')}`}
+                  href={`tel:${site.phone.replace(/[^0-9+]/g, "")}`}
                   className="hover:text-blue-700 transition-colors"
                 >
                   {site.phone}
@@ -83,19 +83,19 @@ export default function HomePage() {
             <IconLinkRow />
           </div>
 
-         <div className="hidden md:flex justify-center">
-          <img
-            src={site.portraitUrl}
-            alt={`Dr. ${site.name}`}
-            className="rounded-xl shadow-soft w-full max-w-[180px] md:max-w-[240px] object-cover"
-          />
-        </div>
-
+          <div className="hidden md:flex justify-center">
+            <img
+              src={site.portraitUrl}
+              alt={`Dr. ${site.name}`}
+              className="rounded-xl shadow-soft w-full max-w-[160px] md:max-w-[220px] object-cover"
+            />
+          </div>
         </div>
       </Section>
 
-      <Section className="py-6">
-        <Card className="p-10">
+
+      <Section className="py-4 md:py-6">
+        <Card className="p-5 md:p-6">
           <div className="space-y-4 text-lg text-slate-700 leading-relaxed">
             <p>
               I am an Assistant Professor in the School of Computing, University of Nebraska-Lincoln. 
@@ -104,8 +104,8 @@ export default function HomePage() {
             </p>
             
             <p>
-              My research goal is to design, develop, and implement networking algorithms and systems for next-gen AI-native wireless networks, and support diversified emerging mobile applications, such as Extended Reality, Autonomous Driving, and Internet of Things. 
-              My research philosophy is to integrate theoretical optimization and system experiments in real-world at-scale networks and systems.
+              My research goal is to design, develop, and deploy converged networking and computing systems that efficiently support a broad range of emerging applications, including extended reality, autonomous driving, industrial automation, and precision agriculture.
+              My research philosophy emphasizes the integration of theoretical optimization with system experimentation in real-world large-scale networking and computing environments.
               I am the principal investigator of Husker-Net, the first multi-campus private 5G network at the University of Nebraska-Lincoln, supported by NSF Campus Cyberinfrastructure (CC*) program.
             </p>
             <p className="font-medium text-blue-800">
@@ -115,7 +115,7 @@ export default function HomePage() {
         </Card>
       </Section>
 
-      <Section title="Research Interests" className="py-10">
+      <Section title="Research Interests" className="py-4 md:py-6">
         <div className="grid md:grid-cols-3 gap-6">
           {site.interests.map((i) => (
             <Card key={i.title} className="p-7">
@@ -127,8 +127,8 @@ export default function HomePage() {
       </Section>
 
       {/* News */}
-      <Section className="py-10">
-        <Card className="p-10">
+      <Section className="py-4 md:py-6">
+        <Card className="p-5 md:p-6">
           {/* Header row */}
           <div className="flex items-center gap-4">
             <Newspaper className="h-10 w-10 text-blue-600" />

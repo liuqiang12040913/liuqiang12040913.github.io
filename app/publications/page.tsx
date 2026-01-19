@@ -12,10 +12,6 @@ function sortDescYear<T extends { year: number }>(arr: T[]) {
 export default function PublicationsPage() {
   return (
     <main className="pt-8 pb-10">
-      <Section className="py-6">
-        <h1 className="text-5xl font-bold text-slate-900">PUBLICATION</h1>
-        <hr className="mt-6 border-t-4 border-blue-700" />
-      </Section>
 
       <Section className="py-10">
         <div className="space-y-10">
