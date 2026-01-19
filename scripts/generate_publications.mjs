@@ -54,7 +54,7 @@ function yearFromTags(tags = {}) {
 function authorsToString(authorRaw = "") {
   const s = clean(authorRaw);
   // BibTeX authors use "and" between authors. Preserve "Last, First" formatting.
-  return s.replace(/\s+and\s+/gi, ", ");
+  return s;
 }
 
 function extractTitle(tags = {}) {
