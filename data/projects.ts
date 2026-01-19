@@ -27,6 +27,8 @@ export const projects: Project[] = [
     duration: 'Mar. 2025 – Feb. 2028',
     abstract:
       'This project aims to democratize autonomous driving technologies to every connected vehicle via designing a new connected autonomous driving as a service (CADaaS). The fundamental idea is to enable adaptive vehicle-edge collaboration for collaboratively performing any latest autonomous driving stacks, including perception, prediction, and planning.',
+    ctaLabel: 'Visit Project Webpage →',
+    ctaUrl: 'https://int-lab.unl.edu/cadaas/',
     tags: ['Autonomous Systems', 'Edge Computing', 'Deterministic Networking'],
   },
   {
@@ -42,6 +44,8 @@ export const projects: Project[] = [
     duration: 'Jan. 2025 – Dec. 2026',
     abstract:
       'This fellowship project outlines a first-of-its-kind safe zero-touch network management system by designing a new safe online hierarchical learning framework for O-RAN mobile networks. Leveraging the city-scale network infrastructure at the host institution, Iowa State University, the project will focus on three research objectives.',
+    ctaLabel: 'Visit Project Webpage →',
+    ctaUrl: 'https://int-lab.unl.edu/epscor/',
     tags: ['O-RAN', 'Network Autonomy', 'Online Learning'],
   },
   {
@@ -56,8 +60,8 @@ export const projects: Project[] = [
     abstract:
       'This project outlines a first-in-its-kind autonomous network orchestration framework towards pervasive slicing-as-a-service. It addresses the continual domain shifting issue by automatically bridging simulation-to-reality gap via offline augmenting simulators and safely adapting time-varying dynamics via online learning in real-world networks. It will be evaluated in UNL site-scale and PAWR city-scale platforms.',
     fundingUrl: 'https://www.nsf.gov/awardsearch/show-award?AWD_ID=2333164&HistoricalAwards=false',
-    // ctaLabel: 'Webpage →',
-    // ctaUrl: 'https://your-lab-site/auto-slicing',
+    ctaLabel: 'Visit Project Webpage →',
+    ctaUrl: 'https://int-lab.unl.edu/autoslicing/',
     tags: ['Network Slicing', 'Network Orchestration', 'Online Learning'],
   },
 
@@ -84,6 +88,8 @@ export const projects: Project[] = [
     duration: 'Sept. 2024 – Aug. 2026',
     abstract:
       'The goal is to design, develop, and deploy new digital twin systems in regard to crop growth modeling for smart irrigation management. We propose the CropTwin system with three core research tasks, including cost-efficient IoT systems, automatic digital twining, and smart irrigation solutions. We deploy and evaluate CropTwin in the real-world research farm at UNL, throughout a full soybean growth session.',
+    ctaLabel: 'Visit Project Webpage →',
+    ctaUrl: 'https://int-lab.unl.edu/croptwin/',
     tags: ['Digital Twin', 'Smart Agriculture', 'IoT'],
   },
   {
@@ -98,7 +104,7 @@ export const projects: Project[] = [
     duration: 'Oct. 2023 – Sept. 2025',
     abstract:
       'This project outlines a novel open end-to-end cellular edge network (Husker-Net) by designing, deploying, and operating private 5G network over a light-licensed CBRS spectrum in multiple UNL campuses. Husker-Net is featured with ultra-low operating cost with open-source modules, flexible deployment with both wired and wireless backhaul (e.g., LEO in mid of Nebraska), and zero-touch management with automatic model-free algorithms.',
-    ctaLabel: 'Visit Husker-Net Website →',
+    ctaLabel: 'Visit Project Webpage →',
     ctaUrl: 'https://husker-net.unl.edu/',
     tags: ['Private 5G', 'Edge Networking', 'Network Automation'],
   },
