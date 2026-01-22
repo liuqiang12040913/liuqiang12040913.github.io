@@ -64,7 +64,7 @@ function ServiceGroup({
 export default function ServicePage() {
   // 1) Editorial roles
   const editorial = serviceBlocks.filter((b) =>
-    ["Associated Editor", "Guest Editor"].includes(b.title)
+    ["Associated Editor", "Editor", "Guest Editor"].includes(b.title)
   );
 
   // 2) Conference organization (non-TPC chair roles)

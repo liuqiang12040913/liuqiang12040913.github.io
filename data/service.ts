@@ -6,7 +6,7 @@ export type ServiceBlock = {
 export const serviceBlocks: ServiceBlock[] = [
   {
     title: "Editor",
-    lines: ["IEEE Wireless Communication Magazine"],
+    lines: ["IEEE Wireless Communications Magazine"],
   },
   {
     title: "Associated Editor",
