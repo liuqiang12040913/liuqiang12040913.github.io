@@ -16,6 +16,12 @@ export const publicationGroups: PublicationSection[] = [
     "sectionTitle": "Conference Papers",
     "items": [
       {
+        "title": "Automatic Network Planning with Digital Radio Twin",
+        "authors": "Li, Xiaomeng and Zhang, Yuru and Liu, Qiang and Vuran, Mehmet Can and Huynh, Nathan and Zhao, Li and Rahman, Mizan and Ozguven, Eren Erman",
+        "venue": "IEEE International Conference on Communications (ICC)",
+        "year": 2026
+      },
+      {
         "title": "inRAN: Interpretable Online Bayesian Learning for Network Automation in Open Radio Access Networks",
         "authors": "Zhao, Ming and Zhang, Yuru and Liu, Qiang and Kak, Ahan and Choi, Nakjung",
         "venue": "IEEE Conference on Computer Communications (INFOCOM)",
