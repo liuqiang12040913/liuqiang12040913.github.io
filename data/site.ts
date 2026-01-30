@@ -39,7 +39,7 @@ export const site = {
   news: [
     {
       date: "[2026/01]",
-      tag: "Student",
+      tag: "Paper",
       html: `Our paper (<strong>AutoPlan</strong>) on digital twin assisted cellular network planning has been accepted by <strong>IEEE ICC 2026</strong>! Congratulations to Xiaomeng and Yuru!`,
     },
     {
