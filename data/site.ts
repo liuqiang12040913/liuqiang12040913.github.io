@@ -38,6 +38,11 @@ export const site = {
 
   news: [
     {
+      date: "[2026/02]",
+      tag: "Student",
+      html: `Yuru is awarded the prestigious <strong>Dean’s Fellowship</strong> ($5500 for 2026-2027 academic year) by UNL. Congratulations to Yuru Zhang!`,
+    },
+    {
       date: "[2026/01]",
       tag: "Paper",
       html: `Our paper (<strong>AutoPlan</strong>) on digital twin assisted cellular network planning has been accepted by <strong>IEEE ICC 2026</strong>! Congratulations to Xiaomeng and Yuru!`,
