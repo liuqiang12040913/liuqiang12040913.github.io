@@ -49,6 +49,10 @@ export const peopleSections: PeopleSection[] = [
     title: "Former Students",
     people: [
       {
+        name: "Alistair Nathanael Westbrook",
+        roleLine: "B.S. Student, Spring 2026 - Present",
+      },
+      {
         name: "Bryan Duong",
         roleLine: "M.S. Student, Spring 2024 - Summer 2025",
       },
