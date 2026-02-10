@@ -43,15 +43,16 @@ export const peopleSections: PeopleSection[] = [
           "Research Focus: Wireless Network, Digital Network Twin",
         highlights: "Highlights: INFOCOM 2026; Milton E. Mohr Fellowship; Nokia Bell Labs Internships 2026; Dean’s Fellowship 2026",
       },
+      {
+        name: "Alistair Nathanael Westbrook",
+        researchFocus: "Research Focus: 3D Gaussian Splatting",
+        roleLine: "B.S. Student, Spring 2026",
+      },
     ],
   },
   {
     title: "Former Students",
     people: [
-      {
-        name: "Alistair Nathanael Westbrook",
-        roleLine: "B.S. Student, Spring 2026 - Present",
-      },
       {
         name: "Bryan Duong",
         roleLine: "M.S. Student, Spring 2024 - Summer 2025",
