@@ -15,6 +15,23 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: 'career',
+    title:
+      'CAREER: Trustworthy AI-Native Network Autonomy in Open Radio Access Networks',
+    fundingSource: 'NSF',
+    fundingUrl:
+      'https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2538305',
+    awardLabel: 'NSF 2538305',
+    totalBudget: '$750,000',
+    role: 'Principal Investigator',
+    duration: 'Jul. 2026 – Jun. 2031',
+    abstract:
+      'The research program of this CAREER project will derive a novel systematic framework of trustworthy AI-native network autonomy in open RAN. The education program will develop a new campus-wide wireless educational platform based on Husker-Net, a private cellular edge network, to serve multiple courses and educate hundreds of students; establish a new graduate connect program to promote graduate student success and retain talent in Nebraska; and launch a new virtual Hour-of-Code event to engage, inspire, and educate K-12 students',
+    ctaLabel: 'Visit Project Webpage →',
+    ctaUrl: 'https://int-lab.unl.edu/career/',
+    tags: ['Network Autonomy', 'Open RAN', 'Trustworthy AI'],
+  },
+  {
     id: 'cadas',
     title:
       'Collaborative Research: CSR: Small: CADaaS: Deterministic Communication and Predictive Computation for Connected Autonomous Driving as a Service',
