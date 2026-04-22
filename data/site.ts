@@ -38,6 +38,11 @@ export const site = {
 
   news: [
     {
+      date: "[2026/04]",
+      tag: "Grant",
+      html: `Received the <strong>NSF CAREER Award</strong>: CAREER: Trustworthy AI-Native Network Autonomy in Open Radio Access Networks. Thanks for the generous support from NSF.`,
+    },
+    {
       date: "[2026/02]",
       tag: "Student",
       html: `Yuru is awarded the prestigious <strong>Dean’s Fellowship</strong> ($5500 for 2026-2027 academic year) by UNL. Congratulations to Yuru Zhang!`,
