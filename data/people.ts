@@ -41,11 +41,21 @@ export const peopleSections: PeopleSection[] = [
         roleLine: "Ph.D. Student, Fall 2022, M.S., Xidian University",
         researchFocus:
           "Research Focus: Wireless Network, Digital Network Twin",
-        highlights: "Highlights: INFOCOM 2026; Milton E. Mohr Fellowship; Nokia Bell Labs Internships 2026; Dean’s Fellowship 2026",
+        highlights: "Highlights: INFOCOM 2026; ICCCN 2026, Milton E. Mohr Fellowship; Nokia Bell Labs Internships 2026; Dean’s Fellowship 2026",
       },
       {
         name: "Alistair Nathanael Westbrook",
         researchFocus: "Research Focus: 3D Gaussian Splatting",
+        roleLine: "B.S. Student, Spring 2026",
+      },
+      {
+        name: "Liam Makela",
+        researchFocus: "Research Focus: Vehicle to Everything",
+        roleLine: "B.S. Student, Spring 2026",
+      },
+      {
+        name: "Sonny Gonzalez",
+        researchFocus: "Research Focus: Internet of Things",
         roleLine: "B.S. Student, Spring 2026",
       },
     ],
