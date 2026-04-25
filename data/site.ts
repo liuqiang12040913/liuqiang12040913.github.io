@@ -40,7 +40,17 @@ export const site = {
     {
       date: "[2026/04]",
       tag: "Grant",
-      html: `Received the <strong>NSF CAREER Award</strong>: CAREER: Trustworthy AI-Native Network Autonomy in Open Radio Access Networks. Thanks for the generous support from NSF.`,
+      html: `Received the <strong><span style="color: red;">NSF CAREER Award</span></strong>: CAREER: Trustworthy AI-Native Network Autonomy in Open Radio Access Networks. Thanks for the generous support from NSF.`,
+    },
+    {
+      date: "[2026/04]",
+      tag: "Paper",
+      html: `Our paper (<strong>RadTwin</strong>) on Generalizable Wireless Digital Twin for Dynamic Environments has been accepted by <strong>IEEE ICCCN 2026</strong>! Congratulations to Yuru and Ming!`,
+    },
+    {
+      date: "[2026/04]",
+      tag: "Paper",
+      html: `Our poster on Energy Efficient Edge Site Operation for Rural V2X has been accepted by <strong>IEEE ICCCN 2026</strong>! Congratulations to Xiaomeng and Ming!`,
     },
     {
       date: "[2026/02]",
