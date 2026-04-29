@@ -44,6 +44,11 @@ export const site = {
     },
     {
       date: "[2026/04]",
+      tag: "Grant",
+      html: `Received 1-year $10K <strong>REU Supplement Fund</strong> based on our CADaaS project, through Computing Research Association (CRA).`,
+    },
+    {
+      date: "[2026/04]",
       tag: "Paper",
       html: `Our paper (<strong>RadTwin</strong>) on Generalizable Wireless Digital Twin for Dynamic Environments has been accepted by <strong>IEEE ICCCN 2026</strong>! Congratulations to Yuru and Ming!`,
     },
