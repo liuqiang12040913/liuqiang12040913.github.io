@@ -50,6 +50,11 @@ export const site = {
     {
       date: "[2026/04]",
       tag: "Paper",
+      html: `Our paper (<strong>EdgeServing</strong>) on Deadline-Aware Multi-DNN Serving at the Edge has been accepted by <strong>IEEE ICCCN 2026</strong>! Congratulations to Jiahe and Xiaomeng!`,
+    },
+    {
+      date: "[2026/04]",
+      tag: "Paper",
       html: `Our paper (<strong>RadTwin</strong>) on Generalizable Wireless Digital Twin for Dynamic Environments has been accepted by <strong>IEEE ICCCN 2026</strong>! Congratulations to Yuru and Ming!`,
     },
     {
