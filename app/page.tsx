@@ -113,9 +113,6 @@ export default function HomePage() {
             <p className="font-medium text-blue-800">
               I am actively looking for self-motivated Ph.D. students to join my research group. If you are interested in working with me, please send me an email with your CV and research interests.
             </p>
-            <p className="font-medium text-red-600">
-              For students in CSCE 464/864, send me an email directly if you are making up the quizzes, since Canvas is unavailable now.
-            </p>
           </div>
         </Card>
       </Section>
