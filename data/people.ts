@@ -26,7 +26,7 @@ export const peopleSections: PeopleSection[] = [
         roleLine: "Ph.D. Student, Spring 2024, M.S., UC Riverside",
         researchFocus:
           "Research Focus: Connected Autonomous Driving, Edge Computing, Machine Learning",
-        highlights: "Highlights: GLOBECOM 2024",
+        highlights: "Highlights: GLOBECOM 2024, ICCCN 2026",
       },
       {
         name: "Ming Zhao",
