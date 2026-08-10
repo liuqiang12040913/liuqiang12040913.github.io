@@ -50,7 +50,7 @@ export const site = {
     {
       date: "[2026/05]",
       tag: "Grant",
-      html: `Received a one-year Nebraska Research Initiative (NRI) grant for networked autonomous robotic systems, with Co-PI Daoce Wang.`,
+      html: `Received a 1-year $100K Nebraska Research Initiative (NRI) grant on networked autonomous robotic systems, with Co-PI Daoce Wang.`,
     },
     {
       date: "[2026/04]",
