@@ -43,6 +43,16 @@ export const site = {
       html: `Received the <strong><span style="color: red;">NSF CAREER Award</span></strong>: CAREER: Trustworthy AI-Native Network Autonomy in Open Radio Access Networks. Thanks for the generous support from NSF.`,
     },
     {
+      date: "[2026/07]",
+      tag: "Paper",
+      html: `Our paper (<strong>RadTwin</strong>) received the <strong><span style="color: red;">Best Paper Award</span></strong> at <strong>IEEE ICCCN 2026</strong>! Congratulations to Yuru and the team!`,
+    },
+    {
+      date: "[2026/05]",
+      tag: "Grant",
+      html: `Received a <strong><span style="color: red;">NRI</span></strong> grant: NARS: Networked Autonomous Robotic Systems for Advanced Manufacturing, with Co-PI Daoce Wang.`,
+    },
+    {
       date: "[2026/04]",
       tag: "Grant",
       html: `Received 1-year $10K <strong>REU Supplement Fund</strong> based on our CADaaS project, through Computing Research Association (CRA).`,
