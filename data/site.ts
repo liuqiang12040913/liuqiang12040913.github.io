@@ -50,7 +50,7 @@ export const site = {
     {
       date: "[2026/05]",
       tag: "Grant",
-      html: `Received a <strong><span style="color: red;">NRI</span></strong> grant: NARS: Networked Autonomous Robotic Systems for Advanced Manufacturing, with Co-PI Daoce Wang.`,
+      html: `Received a <strong>NRI</strong> grant: NARS: Networked Autonomous Robotic Systems for Advanced Manufacturing, with Co-PI Daoce Wang.`,
     },
     {
       date: "[2026/04]",
