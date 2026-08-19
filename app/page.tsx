@@ -87,7 +87,7 @@ export default function HomePage() {
             <img
               src={site.portraitUrl}
               alt={`Dr. ${site.name}`}
-              className="rounded-xl shadow-soft w-full max-w-[180px] md:max-w-[240px] object-cover"
+              className="rounded-xl shadow-soft w-full max-w-[200px] md:max-w-[260px] object-cover"
             />
           </div>
         </div>
