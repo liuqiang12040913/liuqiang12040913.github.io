@@ -100,12 +100,12 @@ export default function HomePage() {
             <p>
               I am an Assistant Professor in the School of Computing, University of Nebraska-Lincoln. 
               Before joining UNL, I was a Member of Technical Staff at Nokia Bell Labs. 
-              I obtained my Ph.D. degree in Electrical Engineering at the University of North Carolina at Charlotte, supervised by Dr. Tao Han. 
+              I obtained my Ph.D. degree in Electrical Engineering at the University of North Carolina at Charlotte. 
             </p>
             
             <p>
-              My research goal is to design, develop, and deploy converged networking and computing systems that efficiently support a broad range of emerging applications, including extended reality, autonomous driving, industrial automation, and precision agriculture.
-              My research philosophy emphasizes the integration of theoretical optimization with system experimentation in real-world large-scale networking and computing environments.
+              My research goal is to realize connected autonomy by establishing the foundations that enable heterogeneous autonomous systems to connect reliably, collaborate effectively, and achieve collective intelligence through the convergence of wireless networking, computing, and embodied intelligence. 
+              My research philosophy integrates rigorous theoretical analysis and domain-informed AI with systematic experimentation in real-world systems, with theory guiding system design and experimental evidence driving new models, algorithms, and research questions.
               I have received the NSF CAREER Award (2026), Best Paper Award at IEEE ICCCN (2026), Best Paper Award at IEEE ICC (2019 and 2022), Best Paper Award at IEEE TAOS (2019), NVIDIA Academic Grant Award(2025), Edgerton Innovation Award @ UNL (2025), and Research Excellence Award @ SoC (2024).
               I am the principal investigator of <a href='https://husker-net.unl.edu/' target="_blank" rel="noopener noreferrer" className='text-blue-700 hover:text-blue-800'>Husker-Net</a>, the first multi-campus private 5G network at the University of Nebraska-Lincoln, supported by NSF Campus Cyberinfrastructure (CC*) program.
             </p>
