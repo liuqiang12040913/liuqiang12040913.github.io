@@ -1,3 +1,18 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Custom fields read by scripts/generate_publications.mjs
+%%
+%%   area       = wireless | embodied | cps      (research direction; required)
+%%                  wireless -> Wireless Networks
+%%                  embodied -> Embodied Intelligence
+%%                  cps      -> Cyber-Physical Systems
+%%   keywords   = 2-3 short research keywords, separated by ";"
+%%   award      = e.g. {Best Paper Award}        (optional; renders a badge)
+%%   shortvenue = optional override for the venue acronym tag (e.g. {TVT})
+%%
+%% Venue acronyms are otherwise derived automatically from the text in
+%% parentheses of the booktitle, or from a small journal mapping in the script.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2026 (self) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @inproceedings{cao2026edgeserving,
@@ -5,7 +20,9 @@
   booktitle={2026 35th International Conference on Computer Communications and Networks (ICCCN)}, 
   title={EdgeServing: Deadline-Aware Multi-DNN Serving at the Edge}, 
   year={2026},
-  pages={1-9}
+  pages={1-9},
+  area={embodied},
+  keywords={Edge AI; Multi-DNN Serving; Deadline-Aware Scheduling}
 }
 
 @inproceedings{zhang2026radtwin,
@@ -13,16 +30,21 @@
   booktitle={2026 35th International Conference on Computer Communications and Networks (ICCCN)}, 
   title={RadTwin: Generalizable Wireless Digital Twin for Dynamic Environments}, 
   year={2026},
-  pages={1-9}
+  pages={1-9},
+  award={Best Paper Award},
+  area={cps},
+  keywords={Wireless Digital Twin; Generalization; Dynamic Environments}
 }
 
 
 @inproceedings{li2026automatic,
-  title={Automatic network planning with digital radio twin},
+  title={Automatic Network Planning with Digital Radio Twin},
   author={Li, Xiaomeng and Zhang, Yuru and Liu, Qiang and Vuran, Mehmet Can and Huynh, Nathan and Zhao, Li and Rahman, Mizan and Ozguven, Eren Erman},
   booktitle={IEEE International Conference on Communications (ICC)},
   pages={1--6},
   year={2026},
+  area={cps},
+  keywords={Digital Radio Twin; Network Planning; Sim-to-Real}
 }
 
 
@@ -31,7 +53,9 @@
   author={Zhang, Yuru and Zhao, Ming and Liu, Qiang and Choi, Nakjung},
   booktitle={IEEE Conference on Computer Communications (INFOCOM)}, 
   year={2026},
-  pages={1-10}
+  pages={1-10},
+  area={cps},
+  keywords={Digital Network Twin; Neural Radio Field; Online Learning}
 } 
 
 
@@ -40,27 +64,30 @@
   author={Zhao, Ming and Zhang, Yuru and Liu, Qiang and Kak, Ahan and Choi, Nakjung},
   booktitle={IEEE Conference on Computer Communications (INFOCOM)}, 
   year={2026},
-  pages={1-10}
+  pages={1-10},
+  area={wireless},
+  keywords={O-RAN; Network Automation; Interpretable AI}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2025 (self) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-@inproceedings{zhao2025inslicing,
-  title={InSlicing: Interpretable Learning-Assisted Network Slice Configuration in Open Radio Access Networks},
-  author={Zhao, Ming and Zhang, Yuru and Liu, Qiang and Kak, Ahan and Choi, Nakjung},
-  booktitle={IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)},
-  pages={1--6},
+@inproceedings{cao2025poster,
+  title={Poster: Multi-Layer Digital Transportation Twin},
+  author={Cao, Jiahe and Liu, Qiang and Zhao, Li and Huynh, Nathan},
+  booktitle={2025 IEEE 3rd International Conference on Mobility, Operations, Services and Technologies (MOST)},
+  pages={1--3},
   year={2025},
-  organization={IEEE}
+  area={cps},
+  keywords={Digital Twin; Transportation Systems; Multi-Layer Modeling}
 }
-
 
 @inproceedings{zhao2025adaslicing,
   title={AdaSlicing: Adaptive Online Network Slicing Under Continual Network Dynamics in Open Radio Access Networks}, 
   author={Zhao, Ming and Zhang, Yuru and Liu, Qiang and Kak, Ahan and Choi, Nakjung},
   booktitle={IEEE Conference on Computer Communications (INFOCOM)}, 
   year={2025},
-  pages={1-10}
+  pages={1-10},
+  area={wireless},
+  keywords={Network Slicing; Continual Adaptation; Online Learning}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2024 (self) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -73,7 +100,9 @@
   year={2024},
   volume={},
   number={},
-  pages={1815-1820}
+  pages={1815-1820},
+  area={embodied},
+  keywords={Federated Learning; Incentive Design; Automotive Edge}
   }
 
 
@@ -84,7 +113,9 @@
   year={2024},
   volume={},
   number={},
-  pages={3401-3406}
+  pages={3401-3406},
+  area={embodied},
+  keywords={Vehicular Edge Computing; Crowdsourcing; Reliability}
 }
 
 
@@ -93,7 +124,9 @@
   author={Hu, Tianlun and Liao, Qi and Liu, Qiang and Carle, Georg},
   journal={IEEE Transactions on Machine Learning in Communications and Networking},
   year={2024},
-  publisher={IEEE}
+  publisher={IEEE},
+  area={wireless},
+  keywords={Network Slicing; Domain Adaptation; Hybrid Deep Learning}
 }
 
 @ARTICLE{zhang2024crowdsourcing,
@@ -104,18 +137,11 @@
   volume={73},
   number={9},
   pages={13569-13583},
-  doi={10.1109/TVT.2024.3393728}
+  doi={10.1109/TVT.2024.3393728},
+  area={embodied},
+  keywords={HD Map; Collaborative Computing; Automotive Edge}
 }
 
-
-@inproceedings{zhang2024learn,
-  title={Learn to Augment Network Simulators Towards Digital Network Twins},
-  author={Zhang, Yuru and Zhao, Ming and Liu, Qiang and Choi, Nakjung},
-  booktitle={IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)},
-  pages={1--6},
-  year={2024},
-  organization={IEEE}
-}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2023 (self) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
@@ -125,7 +151,9 @@
   booktitle={IEEE Global Communications Conference (GLOBECOM)},
   pages={6346--6351},
   year={2023},
-  organization={IEEE}
+  organization={IEEE},
+  area={wireless},
+  keywords={Network Slicing; Deep Learning; Lagrangian Methods}
 }
 
 @inproceedings{liu2023adamap,
@@ -134,7 +162,9 @@
   booktitle={IEEE/ACM Symposium on Edge Computing (SEC)},
   pages={14--26},
   year={2023},
-  organization={IEEE}
+  organization={IEEE},
+  area={embodied},
+  keywords={Cooperative Perception; Edge AI; Resource Orchestration}
 }
 
 @inproceedings{zhang2023ronet,
@@ -142,7 +172,9 @@
   author={Zhang, Yuru and Xue, Yongjie and Liu, Qiang and Choi, Nakjung and Han, Tao},
   booktitle={IEEE International Conference on Communications (ICC)},
   pages={1--6},
-  year={2023}
+  year={2023},
+  area={wireless},
+  keywords={Network Configuration; Robust Learning; Neural-Assisted Control}
 }
 
 @inproceedings{xue2023comap,
@@ -150,7 +182,9 @@
   author={Xue, Yongjie and Zhang, Yuru and Liu, Qiang and Chen, Dawei and Han, Kyungtae},
   booktitle={IEEE International Conference on Communications (ICC)},
   pages={1--6},
-  year={2023}
+  year={2023},
+  area={embodied},
+  keywords={Crowdsourcing Map; Proactive Provisioning; Automotive Edge}
 }
 
 
@@ -161,16 +195,11 @@
   author={Hu, Tianlun and Liao, Qi and Liu, Qiang and Carle, Georg},
   journal={IEEE Open Journal of the Communications Society},
   year={2023},
-  publisher={IEEE}
+  publisher={IEEE},
+  area={wireless},
+  keywords={Network Slicing; Transfer Learning; Multi-Agent RL}
 }
 
-@article{wang2023metamobility,
-  title={{MetaMobility: Connecting Future Mobility With the Metaverse}},
-  author={Wang, Haoxin and Wang, Ziran and Chen, Dawei and Liu, Qiang and Ke, Hongyu and Han, Kyungtae KT},
-  journal={IEEE Vehicular Technology Magazine},
-  year={2023},
-  publisher={IEEE}
-}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2022 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
@@ -180,7 +209,9 @@
   author={Liu, Qiang and Han, Tao and Xie, Jiang Linda and Kim, BaekGyu},
   journal={IEEE Transactions on Intelligent Vehicles},
   year={2022},
-  publisher={IEEE}
+  publisher={IEEE},
+  area={embodied},
+  keywords={Dynamic Map; Crowdsourcing Vehicles; Edge Computing}
 }
 
 @article{liu2022deep,
@@ -188,7 +219,9 @@
   author={Liu, Qiang and Choi, Nakjung and Han, Tao},
   journal={IEEE Network Magazine},
   year={2022},
-  publisher={IEEE}
+  publisher={IEEE},
+  area={wireless},
+  keywords={Network Slicing; Deep RL; End-to-End}
 }
 
 @inproceedings{liu2022atlas,
@@ -196,7 +229,9 @@
   author={Liu, Qiang and Choi, Nakjung and Han, Tao},
   booktitle={Proceedings of the 18th International Conference on emerging Networking EXperiments and Technologies (CoNEXT)},
   pages={140--155},
-  year={2022}
+  year={2022},
+  area={wireless},
+  keywords={Network Slicing; Service Configuration; Online Learning}
 }
 
 
@@ -206,7 +241,9 @@
   booktitle={IEEE International Conference on Communications (ICC)},
   pages={4300--4305},
   year={2022},
-  organization={IEEE}
+  organization={IEEE},
+  area={embodied},
+  keywords={HD Map; Crowdsourcing; Automotive Edge}
 }
 
 
@@ -216,7 +253,9 @@
   booktitle={IEEE Global Communications Conference (GLOBECOM)},
   pages={2909--2914},
   year={2022},
-  organization={IEEE}
+  organization={IEEE},
+  area={wireless},
+  keywords={Network Slicing; Transfer Learning; Distributed RL}
 }
 
 @inproceedings{hu2022inter,
@@ -225,7 +264,10 @@
   booktitle={IEEE International Conference on Communications (ICC)},
   pages={3202--3207},
   year={2022},
-  organization={IEEE}
+  organization={IEEE},
+  award={Best Paper Award},
+  area={wireless},
+  keywords={Network Slicing; Multi-Agent RL; Resource Partitioning}
 }
 
 
@@ -237,7 +279,9 @@
   author={Liu, Qiang and Choi, Nakjung and Han, Tao},
   booktitle={Proceedings of the 17th International Conference on emerging Networking EXperiments and Technologies (CoNEXT)},
   pages={141--153},
-  year={2021}
+  year={2021},
+  area={wireless},
+  keywords={Network Slicing; Reinforcement Learning; Safe Online Learning}
 }
 
 @inproceedings{liu2021constraint,
@@ -246,7 +290,9 @@
   booktitle={IEEE 29th International Conference on Network Protocols (ICNP)},
   pages={1--11},
   year={2021},
-  organization={IEEE}
+  organization={IEEE},
+  area={wireless},
+  keywords={Resource Orchestration; Constrained RL; End-to-End Networks}
 }
 
 
@@ -256,6 +302,7 @@
   booktitle={IEEE Conference on Computer Communications (INFOCOM)},
   pages={1--10},
   year={2021},
-  organization={IEEE}
+  organization={IEEE},
+  area={embodied},
+  keywords={Dynamic Map; Real-Time Perception; Automotive Edge}
 }
-
