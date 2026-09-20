@@ -44,6 +44,12 @@ export const peopleSections: PeopleSection[] = [
         highlights: "Highlights: INFOCOM 2026; ICCCN 2026, Milton E. Mohr Fellowship; Nokia Bell Labs Internships 2026; Dean’s Fellowship 2026",
       },
       {
+        name: "Grant Wasserman",
+        roleLine: "M.S. Student, Fall 2026, B.S., UNL",
+        researchFocus:
+          "Research Focus: Embodied Intelligence, Multi-Robot Collaboration",
+      },
+      {
         name: "Alistair Nathanael Westbrook",
         researchFocus: "Research Focus: 3D Gaussian Splatting",
         roleLine: "B.S. Student, Spring 2026",
