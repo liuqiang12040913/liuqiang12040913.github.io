@@ -105,7 +105,7 @@ export default function HomePage() {
             
             <p>
               My research goal is to achieve connected autonomy by establishing the algorithmic and systems foundations that enable heterogeneous autonomous systems to connect reliably, collaborate effectively, and achieve collective intelligence through the convergence of wireless networking, computing, and embodied intelligence. 
-              My research philosophy is to integrate rigorous theoretical analysis with systematic experimentation under real-world constraints, with theoretical insights guiding system designs and experimental feedback refining algorithms.              
+              My research philosophy is to integrate rigorous theoretical analysis with systematic experimentation under real-world constraints, with theoretical insights guiding system design and experimental feedback refining algorithms.              
               I have received the NSF CAREER Award (2026), Best Paper Award at IEEE ICCCN (2026), Best Paper Award at IEEE ICC (2019 and 2022), Best Paper Award at IEEE TAOS (2019), NVIDIA Academic Grant Award(2025), Edgerton Innovation Award @ UNL (2025), and Research Excellence Award @ SoC (2024).
               I am the principal investigator of <a href='https://husker-net.unl.edu/' target="_blank" rel="noopener noreferrer" className='text-blue-700 hover:text-blue-800'>Husker-Net</a>, the first multi-campus private 5G network at the University of Nebraska-Lincoln, supported by NSF Campus Cyberinfrastructure (CC*) program.
             </p>
