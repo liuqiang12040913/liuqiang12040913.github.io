@@ -30,6 +30,7 @@ export const site = {
   nav: [
     { label: 'Home', href: '/' },
     { label: 'Projects', href: '/projects' },
+    { label: 'Infrastructure', href: '/infrastructure' },
     { label: 'Publications', href: '/publications' },
     { label: 'Courses', href: '/teaching' },
     { label: 'Services', href: '/service' },
