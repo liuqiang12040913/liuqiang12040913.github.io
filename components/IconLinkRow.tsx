@@ -11,18 +11,18 @@ export default function IconLinkRow() {
   ];
 
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex flex-wrap items-center gap-2">
       {items.map(({ href, label, Icon }) => (
         <Link
           key={label}
           href={href}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-600 hover:text-blue-800 transition-colors"
-          aria-label={label}
+          className="inline-flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-sm font-medium text-blue-700 hover:border-blue-300 hover:bg-blue-50 transition-colors whitespace-nowrap"
           title={label}
         >
-          <Icon className="h-6 w-6" />
+          <Icon className="h-4 w-4" />
+          {label}
         </Link>
       ))}
     </div>
