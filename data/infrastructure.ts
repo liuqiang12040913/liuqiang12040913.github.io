@@ -157,7 +157,12 @@ export const infrastructure: InfraSection[] = [
       "PiPER is a lightweight 6-DOF manipulator with up to 1.5 kg payload, driven by integrated joint motors with built-in path planning.",
       "The workstation has AMD Ryzen 9700X with 64 GB RAM, and an NVIDIA RTX 4090 GPU, with support for vision-language-action frameworks (e.g., OpenVLA).",
     ],
-    images: [],
-    imagesNote: "Photos coming soon.",
+    images: [
+      {
+        src: "/assets/infras/robot_arms.jpg",
+        alt: "Agilex Piper and NERO Robotic Arms",
+        caption: "Agilex Piper and NERO Robotic Arms",
+      },
+    ],
   },
 ];
