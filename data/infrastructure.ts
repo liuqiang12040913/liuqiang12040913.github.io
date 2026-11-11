@@ -130,7 +130,7 @@ export const infrastructure: InfraSection[] = [
     title: "Autonomous Driving Platform",
     subtitle: "Four-wheel differential drive robotic vehicle",
     paragraphs: [
-      "Hippo is a compact four-wheel differential drive robotic vehicle for various autonomous driving experiments, with an onboard computer with an Intel i7 CPU and an NVIDIA GTX 1650 GPU.",
+      "Hippo is a compact four-wheel differential-drive robotic vehicle for various autonomous driving experiments, with an onboard computer with an Intel i7 CPU and an NVIDIA GTX 1650 GPU.",
       "It also includes a wide range of sensors and actuators, such as RoboSense 32-thread LiDAR, RTK GPS kit, and high-accuracy IMU.",
       "In addition, we have a high-end Lenovo P8 workstation with an AMD Threadripper 7955WX CPU, 128 GB RAM, and two NVIDIA RTX PRO 6000 (96 GB) GPUs, which can be used for training and testing advanced AI models.",
     ],
@@ -157,7 +157,13 @@ export const infrastructure: InfraSection[] = [
       "PiPER is a lightweight 6-DOF manipulator with up to 1.5 kg payload, driven by integrated joint motors with built-in path planning.",
       "The workstation has AMD Ryzen 9700X with 64 GB RAM, and an NVIDIA RTX 4090 GPU, with support for vision-language-action frameworks (e.g., OpenVLA).",
     ],
-    images: [],
+    images: [
+      {
+        src: "/assets/infras/robot_arms.jpg",
+        alt: "Agilex Piper and NERO Robotic Arms",
+        caption: "Agilex Piper and NERO Robotic Arms",
+      },
+    ],
     imagesNote: "Photos coming soon.",
   },
 ];
