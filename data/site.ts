@@ -14,7 +14,9 @@ export const site = {
   title: 'Assistant Professor',
   department: 'School of Computing',
   university: 'University of Nebraska–Lincoln',
-  email: 'qiang.liu@unl.edu',
+  // Shown as a pattern (not the real address) to reduce spam harvesting.
+  emailPattern: 'firstname.lastname@unl.edu',
+  emailHint: 'replace with my first and last name',
   phone: '402-472-5006',
   addressLabel: '262 Avery Hall, Lincoln, NE',
   addressUrl: 'https://goo.gl/maps/YQzUYmBcCmShdqbx7',

@@ -51,12 +51,10 @@ export default function HomePage() {
             <div className="space-y-3 mb-6">
               <div className="flex items-center gap-3 text-slate-700">
                 <Mail className="h-6 w-6 text-blue-600" />
-                <a
-                  href={`mailto:${site.email}`}
-                  className="hover:text-blue-700 transition-colors"
-                >
-                  {site.email}
-                </a>
+                <span>
+                  {site.emailPattern}
+                  <span className="text-sm text-slate-500"> ({site.emailHint})</span>
+                </span>
               </div>
               <div className="flex items-center gap-3 text-slate-700">
                 <Phone className="h-6 w-6 text-blue-600" />
