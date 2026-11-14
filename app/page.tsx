@@ -51,10 +51,7 @@ export default function HomePage() {
             <div className="space-y-3 mb-6">
               <div className="flex items-center gap-3 text-slate-700">
                 <Mail className="h-6 w-6 text-blue-600" />
-                <span>
-                  {site.emailPattern}
-                  <span className="text-sm text-slate-500"> ({site.emailHint})</span>
-                </span>
+                <span>{site.emailPattern}</span>
               </div>
               <div className="flex items-center gap-3 text-slate-700">
                 <Phone className="h-6 w-6 text-blue-600" />
