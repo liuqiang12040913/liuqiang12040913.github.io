@@ -47,7 +47,7 @@ export const site = {
     {
       date: "[2026/11]",
       tag: "Other",
-      html: `Elevated to <strong>IEEE Senior Member</strong>, in recognition of professional standing and contributions in wireless networking and AI.`,
+      html: `Dr. Liu is elevated to <strong>IEEE Senior Member</strong>, in recognition of professional standing and contributions in wireless networking and AI.`,
     },
     {
       date: "[2026/07]",
