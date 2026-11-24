@@ -40,14 +40,14 @@ export const site = {
 
   news: [
     {
-      date: "[2026/11]",
-      tag: "Award",
-      html: `Elevated to <strong><span style="color: red;">IEEE Senior Member</span></strong>, in recognition of professional standing and contributions in wireless networking and AI.`,
-    },
-    {
       date: "[2026/04]",
       tag: "Grant",
       html: `Received the <strong><span style="color: red;">NSF CAREER Award</span></strong>: CAREER: Trustworthy AI-Native Network Autonomy in Open Radio Access Networks. Thanks for the generous support from NSF.`,
+    },
+    {
+      date: "[2026/11]",
+      tag: "Other",
+      html: `Elevated to <strong><span style="color: red;">IEEE Senior Member</span></strong>, in recognition of professional standing and contributions in wireless networking and AI.`,
     },
     {
       date: "[2026/07]",
