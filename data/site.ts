@@ -229,7 +229,7 @@ export const site = {
     {
       title: 'Wireless Networks',
       description:
-        'Network Autonomy, O-RAN, AI-RAN, Private Networks, Large-Scale Network Testbeds, Time Sensitive Networks.',
+        'Network Autonomy, O-RAN, AI-RAN, Private Networks, Network Testbeds, TSN.',
     },
     {
       title: 'Embodied Intelligence',
